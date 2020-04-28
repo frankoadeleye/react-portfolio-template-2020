@@ -1,4 +1,4 @@
-## A minimal portfolio template for Developers, Enterpreneur!
+## React portfolio template (RPT 2020) for Developers, Enterpreneur!
 
 ## Features
 
