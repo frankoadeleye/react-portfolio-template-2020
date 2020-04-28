@@ -162,6 +162,8 @@ h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
   font-size: 6rem;
+
+  padding-top: 2rem;
 }
 h1.sm-heading,
 h2.sm-heading,
