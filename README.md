@@ -1,68 +1,117 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# RPT2020 ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=blue)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/simplefolio)
 
-## Available Scripts
+## A minimal portfolio template for Developers!
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+⚡️ Modern UI Design with SCSS (Original styling by BradTraversy)
+⚡️ SPA: Single Page Application
+⚡️ Fully Responsive\
+⚡️ Valid HTML5 & CSS3\
+⚡️ Navigation with React Router
+⚡️ Well organized documentation
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To view a demo example, **[click here](https://frankoadeleye.github.io/react-portfolio-template-2020/)**\
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## Getting Started 🚀
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `yarn build`
+### Prerequisites 📋
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Also, you can use [Yarn](https://yarnpkg.com/) instead/or of NPM ☝️
 
-### `yarn eject`
+```
+yarn@v1.21.1 or higher
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How To Use 🔧
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+From your command line, first clone RPT2020:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Clone this repository
+$ git clone https://github.com/frankoadeleye/react-portfolio-template-2020.git
 
-## Learn More
+# Go into the repository
+$ cd react-portfolio-template-2020
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Remove current origin repository
+$ git remote remove origin
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Then you can install the dependencies either using NPM or Yarn:
 
-### Code Splitting
+Using NPM:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```bash
+# Install dependencies
+$ npm install
 
-### Analyzing the Bundle Size
+# Start development server
+$ npm start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Using Yarn:
 
-### Making a Progressive Web App
+```bash
+# Install dependencies
+$ yarn
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+# Start development server
+$ yarn start
+```
 
-### Advanced Configuration
+Once your server has started, go to this url it will load automatically (using Yarn) and you will see the website running on a Development Server. If it doesn't load automatically, then go to localhost:3000/ (or your prefered host) manually.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+---
 
-### Deployment
+## Template Instructions:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Step 1 - STRUCTURE
 
-### `yarn build` fails to minify
+Go to `/src/homepage.jsx` and fill your information: Name and links, do the same for contact.jsx, about.jsx, work.jsx.
+Also remember to include your resume (CV) and link appropraite in navigation.jsx: just replace the template resume with your own and provide the corret path. That's all!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Deployment 📦
+
+Once you have done with your setup. You need to put your website online!
+
+You can deploy to github pages. just create a repo, change the name and homepage name in package.json to your new repo name.
+Then git add, git commit and then push to your new repo.
+Lastly enter:
+
+```bash
+  yarn deploy
+```
+
+to deploy to production.
+
+## Technologies used 🛠️
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Markup language
+- [ReactJS](https://reactjs.org/) - JavaScript Framework
+- [Sass](https://sass-lang.com/documentation) - CSS extension language
+- [React-router](https://reacttraining.com/react-router/web/guides/quick-start) - ReactJS library
+
+## Authors
+
+- **Frank Adeleye (ReactJS framework Version)** - [https://github.com/cobidev](https://github.com/frankoadeleye)
+- **Brad Traversy (Original HTML5/CSS/JS Version)** - [https://github.com/bradtraversy](https://github.com/bradtraversy)
+
+## Acknowledgments 🎁
+
+I was motivated to create this react version out of sheer desire to switch from the reciever mentality to a giver/provider mentality, but even those that give recieves, right? We'll all forever be on both sides.
+Also thanks to [Brad](https://github.com/bradtraversy) for the original version [modern portfolio](https://github.com/bradtraversy/modern_portfolio) and [Jacobo Martinez](https://github.com/cobidev) for a wonderful way to structure a ReadMe file.
