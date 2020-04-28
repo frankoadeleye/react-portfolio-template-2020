@@ -65,7 +65,7 @@ export class Navigation extends Component {
           </div>
           <ul class={`menu-nav ${!this.state.showMenu ? "" : showClass}`}>
             <List
-              route="/"
+              route="/react-portfolio-template-2020"
               link="Home"
               classNames={`nav-item ${!this.state.showMenu ? "" : showClass} ${
                 this.props.home

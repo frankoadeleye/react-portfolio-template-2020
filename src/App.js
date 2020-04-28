@@ -12,7 +12,11 @@ class App extends Component {
       <>
         <Router>
           <Switch>
-            <Route path="/" exact component={HomePage} />
+            <Route
+              path="/react-portfolio-template-2020"
+              exact
+              component={HomePage}
+            />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/work" component={Work} />
