@@ -1,15 +1,13 @@
-# RPT2020 ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=blue)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/simplefolio)
-
-## A minimal portfolio template for Developers!
+## A minimal portfolio template for Developers, Enterpreneur!
 
 ## Features
 
-⚡️ Modern UI Design with SCSS (Original styling by BradTraversy)
-⚡️ SPA: Single Page Application
-⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Navigation with React Router
-⚡️ Well organized documentation
+--Modern UI Design with SCSS (Original styling by BradTraversy)
+--SPA: Single Page Application
+--Fully Responsive\
+--Valid HTML5 & CSS3\
+--Navigation with React Router
+-- Well organized documentation
 
 To view a demo example, **[click here](https://frankoadeleye.github.io/react-portfolio-template-2020/)**\
 
@@ -108,7 +106,7 @@ to deploy to production.
 
 ## Authors
 
-- **Frank Adeleye (ReactJS framework Version)** - [https://github.com/cobidev](https://github.com/frankoadeleye)
+- **Frank Adeleye (ReactJS framework Version)** - [https://github.com/frankoadeleye](https://github.com/frankoadeleye)
 - **Brad Traversy (Original HTML5/CSS/JS Version)** - [https://github.com/bradtraversy](https://github.com/bradtraversy)
 
 ## Acknowledgments 🎁
