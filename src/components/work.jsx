@@ -28,9 +28,7 @@ const Project = ({ projectImageSrc }) => {
 export function Work() {
   return (
     <main className="work-container">
-      <header>
-        <Navigation work="current" />
-      </header>
+      <Navigation work="current" />
       <main>
         <PageInfoText
           Big1="My"

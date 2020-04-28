@@ -19,9 +19,7 @@ const Job = ({ number, company, position, details }) => {
 export function About() {
   return (
     <div className="about-container">
-      <header>
-        <Navigation about="current" />
-      </header>
+      <Navigation about="current" />
       <main id="about">
         <PageInfoText
           Big1="About"

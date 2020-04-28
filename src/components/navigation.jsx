@@ -50,7 +50,7 @@ export class Navigation extends Component {
   };
   render() {
     return (
-      <>
+      <header className="navigation-container">
         <div
           className={`menu-btn ${!this.state.showMenu ? "" : closeClass} `}
           onClick={this.toggleMenu}
@@ -98,7 +98,7 @@ export class Navigation extends Component {
             />
           </ul>
         </nav>
-      </>
+      </header>
     );
   }
 }

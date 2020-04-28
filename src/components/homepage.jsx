@@ -14,9 +14,7 @@ export class HomePage extends Component {
   render() {
     return (
       <div className="home-container">
-        <header>
-          <Navigation home="current" />
-        </header>
+        <Navigation home="current" />
         <main id="home">
           <PageInfoText
             Big1="John"

@@ -6,9 +6,7 @@ import { PageInfoText } from "./PageInfo";
 export function Contact() {
   return (
     <div className="contact-container">
-      <header>
-        <Navigation contact="current" />
-      </header>
+      <Navigation contact="current" />
       <main id="contact">
         <PageInfoText
           Big1="Contact"
