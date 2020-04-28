@@ -17,9 +17,18 @@ class App extends Component {
               exact
               component={HomePage}
             />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/work" component={Work} />
+            <Route
+              path="/react-portfolio-template-2020/about"
+              component={About}
+            />
+            <Route
+              path="/react-portfolio-template-2020/contact"
+              component={Contact}
+            />
+            <Route
+              path="/react-portfolio-template-2020/work"
+              component={Work}
+            />
           </Switch>
         </Router>
       </>

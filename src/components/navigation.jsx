@@ -72,21 +72,21 @@ export class Navigation extends Component {
               }`}
             />
             <List
-              route="/about"
+              route="/react-portfolio-template-2020/about"
               link="About"
               classNames={`nav-item ${!this.state.showMenu ? "" : showClass} ${
                 this.props.about
               }`}
             />
             <List
-              route="/work"
+              route="/react-portfolio-template-2020/work"
               link="Work"
               classNames={`nav-item ${!this.state.showMenu ? "" : showClass} ${
                 this.props.work
               }`}
             />
             <List
-              route="/contact"
+              route="/react-portfolio-template-2020/contact"
               link="How To Reach Me"
               classNames={`nav-item ${!this.state.showMenu ? "" : showClass} ${
                 this.props.contact
