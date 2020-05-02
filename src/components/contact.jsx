@@ -11,6 +11,7 @@ export function Contact() {
         <PageInfoText
           Big1="Contact"
           Big2="Me"
+          className="contactBig2"
           small="This is how you can reach me..."
         />
         <div className="boxes">

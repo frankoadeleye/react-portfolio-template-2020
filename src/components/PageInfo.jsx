@@ -1,8 +1,9 @@
 import React from "react";
-export const PageInfoText = ({ Big1, Big2, small }) => {
+export const PageInfoText = ({ Big1, Big2, small, className }) => {
   return (
     <>
-      <h1 className="lg-heading">
+      {/*add by udayskai - send className to child component as props , if paraent want to apply any style with its own className */}
+      <h1 className={`lg-heading  ${className}`}>
         {Big1}
         <span className="text-secondary">{Big2}</span>
       </h1>

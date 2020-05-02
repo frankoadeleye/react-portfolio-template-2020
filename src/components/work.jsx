@@ -14,10 +14,10 @@ const Project = ({ projectImageSrc }) => {
         <a href="#!">
           <img src={projectImageSrc} alt="Project" />
         </a>
-        <a href="#" className="btn-light">
+        <a href="#/" className="btn-light">
           <i className="fas fa-eye"></i> Project
         </a>
-        <a href="#" className="btn-dark">
+        <a href="#/" className="btn-dark">
           <i className="fab fa-github"></i> Github
         </a>
       </div>
