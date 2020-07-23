@@ -391,4 +391,9 @@ main#home h1 {
   .projects {
     grid-template-columns: 1fr;
   }
+  /* new code add by udayskai to - reduce the font size for small screen size under 500px */
+  h1.contactBig2{
+    font-size: 4.2rem;
+  }
+
 }
